@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Actividad 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="solid-banner">
+        <h1>DevOps Ecosistema</h1>
+        <p>Integración Continua - Nube - Automatización</p>
+    </div>
+
+    <nav>
+        <a href="#cultura">Cultura</a>
+        <a href="#aws">AWS S3</a>
+        <a href="#github">GitHub</a>
+    </nav>
+
+    <div class="main-content">
+       
+        <section id="cultura">
+            <h2>Cultura DevOps</h2>
+            <div class="grid-cards">
+                <div class="info-card">
+                    <h3>Colaboración</h3>
+                    <p>Fomenta la responsabilidad compartida entre los equipos de desarrollo y operaciones para optimizar la calidad del software.</p>
+                </div>
+                <div class="info-card">
+                    <h3>Automatización</h3>
+                    <p>Elimina tareas manuales repetitivas mediante pipelines de CI/CD, reduciendo errores humanos en el despliegue.</p>
+                </div>
+                <div class="info-card">
+                    <h3>Feedback</h3>
+                    <p>Ciclos de retroalimentación cortos que permiten detectar y corregir fallos en etapas tempranas del desarrollo.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="aws">
+            <h2>AWS Buckets S3</h2>
+            <div class="s3-feature">
+                <div class="s3-text">
+                    <p>Amazon Simple Storage Service es un servicio de almacenamiento de objetos que ofrece escalabilidad, disponibilidad de datos, seguridad y rendimiento líderes en el sector.</p>
+                </div>
+                <ul class="s3-list">
+                    <li>Disponibilidad</li>
+                    <li>Cifrado</li>
+                    <li>Almacenamiento Ilimitado</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="github">
+            <h2>GitHub & CLI</h2>
+            <p>La gestión de repositorios se potencia mediante el uso de la terminal, permitiendo flujos de trabajo más ágiles y automatizados.</p>
+            <div class="terminal">
+                <div><span>$</span> gh auth login</div>
+                <div><span>$</span> gh repo create dev-prod-bucket --public</div>
+                <div><span>$</span> gh pr create --title "Fix: S3 Policy"</div>
+                <div><span>$</span> gh workflow run main.yml</div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>2026</p>
+    </footer>
+
+</body>
+</html>
